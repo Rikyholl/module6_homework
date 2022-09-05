@@ -16,13 +16,13 @@ function even_odd_number(){
         // Проверяем нечисловые значения
         if (typeof arr[i] == "string" || typeof arr[i] == "symbol" || typeof arr[i] == "boolean" || typeof arr[i] == "object"){
     
-            count++;
-        } else  if (arr[i] == 0){
-            countZero++;
+            count++; // считаем кол-во нечисловых элементов
+        } else  if (arr[i] == 0){ 
+            countZero++; // считаем кол-во нулевых элементов
         } else if (arr[i] % 2 == 0){ // если не имеет остатка, значит число четное
             countEven++;
         } else {
-            countOdd++;
+            countOdd++;  // считаем кол-во нечетных элементов
         }
     }
 

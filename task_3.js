@@ -4,6 +4,8 @@
     Выведите в консоль результат.
 */ 
 
+
+
 function sum_numbers(num_1){
 
     console.log('Число №1 - ' + num_1);
